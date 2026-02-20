@@ -110,7 +110,7 @@ bookingForm.addEventListener('submit', function(e) {
     const data = Object.fromEntries(formData);
 
     // Simple validation
-    if (!data.name || !data.email || !data.phone || !data.service) {
+    if (!data.name || !data.email || !data.phone || !data.sede || !data.service) {
         showNotification('Per favore compila tutti i campi obbligatori.', 'error');
         return;
     }

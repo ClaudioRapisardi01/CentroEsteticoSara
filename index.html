@@ -145,10 +145,10 @@
             <div class="about-grid">
                 <div class="about-images">
                     <div class="about-img-wrapper main">
-                        <div class="about-img" style="background: linear-gradient(135deg, var(--color-rose-light) 0%, var(--color-cream) 100%);"></div>
+                        <img class="about-img" src="static/insegna-ls.jpeg" alt="Insegna LS Istituti di Bellezza">
                     </div>
                     <div class="about-img-wrapper secondary">
-                        <div class="about-img" style="background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-rose-light) 100%);"></div>
+                        <img class="about-img" src="static/cabina-specchio.jpeg" alt="Cabina trattamenti LS Istituti di Bellezza">
                     </div>
                     <div class="about-decoration"></div>
                 </div>
@@ -190,29 +190,29 @@
                 <p class="section-subtitle">Scopri gli spazi accoglienti del nostro centro estetico</p>
             </div>
             <div class="gallery-grid">
-                <div class="gallery-item large" style="background: linear-gradient(135deg, var(--color-rose-light) 0%, var(--color-cream) 100%);">
-                    <div class="gallery-overlay">
-                        <span>Area Relax</span>
-                    </div>
-                </div>
-                <div class="gallery-item" style="background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-rose-light) 100%);">
-                    <div class="gallery-overlay">
-                        <span>Cabina Trattamenti</span>
-                    </div>
-                </div>
-                <div class="gallery-item" style="background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-gold-light) 100%);">
-                    <div class="gallery-overlay">
-                        <span>Reception</span>
-                    </div>
-                </div>
-                <div class="gallery-item" style="background: linear-gradient(135deg, var(--color-rose-light) 0%, var(--color-gold-light) 100%);">
+                <div class="gallery-item large" style="background-image: url('static/area-manicure.jpeg'); background-size: cover; background-position: center;">
                     <div class="gallery-overlay">
                         <span>Area Manicure</span>
                     </div>
                 </div>
-                <div class="gallery-item tall" style="background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-cream) 100%);">
+                <div class="gallery-item" style="background-image: url('static/cabina-trattamenti.jpeg'); background-size: cover; background-position: center;">
                     <div class="gallery-overlay">
-                        <span>Sala Massaggi</span>
+                        <span>Cabina Trattamenti</span>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background-image: url('static/reception-prodotti.jpeg'); background-size: cover; background-position: center;">
+                    <div class="gallery-overlay">
+                        <span>Reception</span>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background-image: url('static/postazione-pedicure.jpeg'); background-size: cover; background-position: center;">
+                    <div class="gallery-overlay">
+                        <span>Postazione Pedicure</span>
+                    </div>
+                </div>
+                <div class="gallery-item tall" style="background-image: url('static/esposizione-smalti.jpeg'); background-size: cover; background-position: center;">
+                    <div class="gallery-overlay">
+                        <span>Esposizione Smalti</span>
                     </div>
                 </div>
             </div>
@@ -280,39 +280,30 @@
                     <h2 class="section-title">Inizia il Tuo <span>Percorso Benessere</span></h2>
                     <p class="booking-text">Compila il form per richiedere un appuntamento. Ti ricontatteremo entro 24 ore per confermare la prenotazione.</p>
                     <div class="booking-info">
-                        <div class="info-item">
-                            <div class="info-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <strong>Telefono</strong>
-                                <span>+39 123 456 7890</span>
-                            </div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                    <polyline points="22,6 12,13 2,6"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <strong>Email</strong>
-                                <span>info@lsistitutidibellezza.it</span>
+                        <div class="booking-sede">
+                            <strong class="booking-sede-title">Sede Tivoli Terme</strong>
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span><a href="tel:07741749997">0774 1749997</a> | WhatsApp <a href="https://wa.me/393514208267" target="_blank" rel="noopener">351 420 8267</a></span>
+                                </div>
                             </div>
                         </div>
-                        <div class="info-item">
-                            <div class="info-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/>
-                                    <polyline points="12 6 12 12 16 14"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <strong>Orari</strong>
-                                <span>Lun-Sab: 9:00 - 19:00</span>
+                        <div class="booking-sede">
+                            <strong class="booking-sede-title">Sede Santa Lucia</strong>
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span><a href="tel:0683950854">06 83950854</a> | WhatsApp <a href="https://wa.me/393477325650" target="_blank" rel="noopener">347 732 5650</a></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -331,6 +322,13 @@
                             <input type="tel" id="phone" name="phone" required placeholder=" ">
                             <label for="phone">Telefono</label>
                         </div>
+                    </div>
+                    <div class="form-group">
+                        <select id="sede" name="sede" required>
+                            <option value="" disabled selected>Seleziona la sede</option>
+                            <option value="tivoli-terme">Tivoli Terme - Via Elsa Morante 5</option>
+                            <option value="santa-lucia">Santa Lucia - Via Palombarese 519</option>
+                        </select>
                     </div>
                     <div class="form-group">
                         <select id="service" name="service" required>
@@ -356,76 +354,116 @@
     <!-- Contact Section -->
     <section class="contact" id="contatti">
         <div class="container">
-            <div class="contact-grid">
-                <div class="contact-map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.6!2d12.4!3d41.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDU0JzAwLjAiTiAxMsKwMjQnMDAuMCJF!5e0!3m2!1sit!2sit!4v1234567890"
-                        width="100%"
-                        height="100%"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        title="Mappa LS Istituti di Bellezza">
-                    </iframe>
-                </div>
-                <div class="contact-info">
-                    <span class="section-tag">Dove Siamo</span>
-                    <h2 class="section-title">Vieni a <span>Trovarci</span></h2>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                    <circle cx="12" cy="10" r="3"/>
-                                </svg>
+            <div class="section-header">
+                <span class="section-tag">Le Nostre Sedi</span>
+                <h2 class="section-title">Vieni a <span>Trovarci</span></h2>
+                <p class="section-subtitle">Due centri per essere sempre vicini a te</p>
+            </div>
+            <div class="locations-grid">
+                <!-- Sede Tivoli Terme -->
+                <div class="location-card">
+                    <div class="location-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.5!2d12.7738!3d41.9425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f613b1a6e1b1d%3A0x1!2sVia+Elsa+Morante+5%2C+Tivoli+Terme!5e0!3m2!1sit!2sit!4v1"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            title="Mappa Sede Tivoli Terme">
+                        </iframe>
+                    </div>
+                    <div class="location-info">
+                        <h3 class="location-name">Sede Tivoli Terme</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <strong>Indirizzo</strong>
+                                    <p>Via Elsa Morante 5<br>Tivoli Terme (RM)</p>
+                                </div>
                             </div>
-                            <div>
-                                <strong>Indirizzo</strong>
-                                <p>Via Roma 123<br>00100 Roma (RM)</p>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <strong>Telefono Fisso</strong>
+                                    <p><a href="tel:07741749997">0774 1749997</a></p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <strong>Telefono</strong>
-                                <p>+39 123 456 7890</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/>
-                                    <polyline points="12 6 12 12 16 14"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <strong>Orari di Apertura</strong>
-                                <p>Lunedì - Venerdì: 9:00 - 19:00<br>Sabato: 9:00 - 18:00<br>Domenica: Chiuso</p>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <strong>WhatsApp</strong>
+                                    <p><a href="https://wa.me/393514208267" target="_blank" rel="noopener">351 420 8267</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="social-links">
-                        <a href="#" class="social-link" aria-label="Facebook">
-                            <svg viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
-                            </svg>
-                        </a>
-                        <a href="#" class="social-link" aria-label="Instagram">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                            </svg>
-                        </a>
-                        <a href="#" class="social-link" aria-label="WhatsApp">
-                            <svg viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                            </svg>
-                        </a>
+                </div>
+                <!-- Sede Santa Lucia -->
+                <div class="location-card">
+                    <div class="location-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.5!2d12.5932!3d41.9685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61a0b0b0b0b1%3A0x1!2sVia+Palombarese+519!5e0!3m2!1sit!2sit!4v1"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            title="Mappa Sede Santa Lucia">
+                        </iframe>
+                    </div>
+                    <div class="location-info">
+                        <h3 class="location-name">Sede Santa Lucia</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <strong>Indirizzo</strong>
+                                    <p>Via Palombarese 519<br>Santa Lucia (RM)</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <strong>Telefono Fisso</strong>
+                                    <p><a href="tel:0683950854">06 83950854</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <strong>WhatsApp</strong>
+                                    <p><a href="https://wa.me/393477325650" target="_blank" rel="noopener">347 732 5650</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -468,7 +506,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 LS Istituti di Bellezza. Tutti i diritti riservati.</p>
+                <p>&copy; 2026 LS Istituti di Bellezza. Tutti i diritti riservati.</p>
                 <div class="footer-legal">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Cookie Policy</a>
